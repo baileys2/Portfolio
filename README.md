@@ -25,7 +25,7 @@ Possible sources of evidence (do any one of these):
 * Use a queue as your data structure in https://github.com/MiamiOH-CSE274/Shuffle
 * Consult with Dr. Brinkman on an alternative project
 
-#Evidence:
+<em>Evidence:</em>
 
 *I am able to create an implementation of a Queue. Please see: https://github.com/luo-yu/03_Queue_Lab/tree/luoy6
 
