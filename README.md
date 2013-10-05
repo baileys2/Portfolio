@@ -27,7 +27,7 @@ Possible sources of evidence (do any one of these):
 
 <em>Evidence:</em>
 
-*I am able to create an implementation of a Queue. Please see: https://github.com/luo-yu/03_Queue_Lab/tree/luoy6
+<li>I am able to create an implementation of a Queue. Please see: https://github.com/luo-yu/03_Queue_Lab/tree/luoy6</li>
 
 7 - Create an implementation of a List
 ----
