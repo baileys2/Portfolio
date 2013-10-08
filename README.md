@@ -109,7 +109,7 @@ Possible sources of evidence (do one):
 <strong><em>Evidence:<em></strong>
 <li>I will explain the dynamic memory management in 04_Linked_List_Lab, please see: https://github.com/luo-yu/04_Linked_List_Lab/tree/luoy6. </li>
 
-<li>In this Lab, I allocated dynamic memory to a new Node named dummyNode in the constructor using the keyword new. This memory is allocated on the Heap. I freed all the dynamic memory allocation in the desctructor, including the dummyNode. The remove method delete unwantted Node.  </li>
+<li>In this Lab, I allocated dynamic memory to a new Node named dummyNode in the constructor using the keyword new. This memory is allocated on the Heap. I freed all the dynamic memory allocation in the desctructor, including the dummyNode. The remove method will delete unwantted Node and free the allocated memory.  </li>
 
 5 - Create collection classes using templates in C++
 ----
