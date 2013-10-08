@@ -95,6 +95,9 @@ Possible sources of evidence (do up to 3 of these, up to 7 points for each):
 
 * Select any of the following labs, and analyze the running times for each of your methods of your data structure: Queue, Linked List, Binary Search Tree, Heap, Hash Table, Graph (Adjacency List or Adjacency Matrix, you don't have to do both, but you can if you want)
 
+<strong><em>Evidence:</em></strong>
+
+Please see running time analysis of 03_Queue_Lab, it is in a PDF file: https://github.com/luo-yu/running-time 
 
 5 - Describe memory management in C++, and correctly use dynamic variables, including destructors
 ----
