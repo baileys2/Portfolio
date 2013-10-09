@@ -19,11 +19,10 @@ Body of portfolio
 
 7 - Create an implementation of a Queue
 ----
-Possible sources of evidence (do any one of these):
+This is my implementation of an ArrayQueue.  All the logic seems sound to me, but it doesn't run properly.  I am still awaiting feedback on this lab, which will hopefully help me figure out my problem.
 
-* https://github.com/MiamiOH-CSE274/03_Queue_Lab
-* Use a queue as your data structure in https://github.com/MiamiOH-CSE274/Shuffle
-* Consult with Dr. Brinkman on an alternative project
+https://github.com/stilgeki/03_Queue_Lab/tree/stilgeki
+
 
 7 - Create an implementation of a List
 ----
