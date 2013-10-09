@@ -111,7 +111,7 @@ Possible sources of evidence (do one):
 <strong><em>Evidence:<em></strong>
 <li>I will explain the dynamic memory management in 04_Linked_List_Lab, please see: https://github.com/luo-yu/04_Linked_List_Lab/tree/luoy6. </li>
 
-<li>In this Lab, I allocated dynamic memory to a new Node named dummyNode in the constructor using the keyword new. This memory is allocated on the Heap. I freed all the dynamic memory allocation in the desctructor, including the dummyNode. The remove method will delete unwantted Node and free the allocated memory.  </li>
+<li>In this Lab, I allocated dynamic memory to a new Node named dummyNode in the constructor using the keyword new. This dummyNode will be deleted in the desctrutor. In the add method, I allocated a space for the newly added node named addedNode. In the remove method, when I remove an item at postion i, I deleted the allocated space on the heap for removed item. I freed all the dynamic memory allocations in the desctructor using a while loop, including the dummyNode. My program will not leak memory because every time I remove an item at postion i, I will delete the associated memory allocation.   </li>
 
 5 - Create collection classes using templates in C++
 ----
