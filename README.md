@@ -39,7 +39,7 @@ Possible sources of evidence (do any one of these):
 * Implement chaining instead of linear probing in https://github.com/MiamiOH-CSE274/05_Hashing_Lab
 * Consult with Dr. Brinkman on an alternative project
 
-<strong><em>Evidence:<em></strong>
+<strong><em>Evidences:<em></strong>
 
 <li>I am able to create an implementation of a List, Please see: https://github.com/luo-yu/04_Linked_List_Lab/tree/luoy6</li>
 
