@@ -25,7 +25,7 @@ Possible sources of evidence (do any one of these):
 * Use a queue as your data structure in https://github.com/MiamiOH-CSE274/Shuffle
 * Consult with Dr. Brinkman on an alternative project
 
-<strong><em>Evidence:</em></strong>
+<strong><em>Evidences:</em></strong>
 
 <li>I am able to create an implementation of a Queue. Please see: https://github.com/luo-yu/03_Queue_Lab/tree/luoy6</li>
 
@@ -39,7 +39,7 @@ Possible sources of evidence (do any one of these):
 * Implement chaining instead of linear probing in https://github.com/MiamiOH-CSE274/05_Hashing_Lab
 * Consult with Dr. Brinkman on an alternative project
 
-<strong><em>Evidences:<em></strong>
+<strong><em>Evidence:<em></strong>
 
 <li>I am able to create an implementation of a List, Please see: https://github.com/luo-yu/04_Linked_List_Lab/tree/luoy6</li>
 
@@ -96,7 +96,7 @@ Possible sources of evidence (do up to 3 of these, up to 7 points for each):
 
 * Select any of the following labs, and analyze the running times for each of your methods of your data structure: Queue, Linked List, Binary Search Tree, Heap, Hash Table, Graph (Adjacency List or Adjacency Matrix, you don't have to do both, but you can if you want)
 
-<strong><em>Evidence:</em></strong>
+<strong><em>Evidences:</em></strong>
 
 <li>Please see running time analysis section in my 03_Queue_Lab: https://github.com/luo-yu/03_Queue_Lab/tree/luoy6</li>
 
