@@ -98,7 +98,7 @@ Possible sources of evidence (do up to 3 of these, up to 7 points for each):
 
 <strong><em>Evidence:</em></strong>
 
-Please see running time analysis of 03_Queue_Lab, it is in a PDF file: https://github.com/luo-yu/running-time 
+Please see running time analysis of 03_Queue_Lab,
 
 5 - Describe memory management in C++, and correctly use dynamic variables, including destructors
 ----
