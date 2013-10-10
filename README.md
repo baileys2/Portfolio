@@ -18,18 +18,13 @@ Body of portfolio
 ----
 Possible sources of evidence (do any one of these):
 
-* https://github.com/MiamiOH-CSE274/03_Queue_Lab
-* Use a queue as your data structure in https://github.com/MiamiOH-CSE274/Shuffle
-* Consult with Dr. Brinkman on an alternative project
+I have accomplished this through my completion of the Queue Lab, found here. https://github.com/db4soundman/03_Queue_Lab/tree/blasedd
+
 
 7 - Create an implementation of a List
 ----
-Possible sources of evidence (do any one of these):
 
-* https://github.com/MiamiOH-CSE274/04_Linked_List_Lab
-* Use a linked list as your data structure in https://github.com/MiamiOH-CSE274/Shuffle
-* Implement chaining instead of linear probing in https://github.com/MiamiOH-CSE274/05_Hashing_Lab
-* Consult with Dr. Brinkman on an alternative project
+I have implemented a List, specifically, a Linked List, in the Linked List Lab, found here. https://github.com/db4soundman/04_Linked_List_Lab/tree/blasedd
 
 
 7 - Create an implementation of a Binary Search Tree
@@ -82,6 +77,14 @@ Possible sources of evidence (do any one of these):
 21 - Determine space and time requirements of common data structure methods
 -----
 Possible sources of evidence (do up to 3 of these, up to 7 points for each):
+
+
+For the Linked List (found here https://github.com/db4soundman/04_Linked_List_Lab/blob/blasedd/LinkedList.ipp ), the running times for the methods are as follows. 
+	The constructor is constant time, as there is nothing that relies on the size of the list to execute code. 
+	The destructor is linear time, despite the fact that the `remove()` is called. A while loop is used to iterate through the entire list, and the remove method is called within the loop, but the remove method is always removing the first item in the list, so this does not add to the running time of the destructor. As a result, the destructor runs in linear time.
+	The `find()` is a linear (technically n-1) function except when the user asks for the very first, or very last, item in the list because I have an if statement that checks to see if the user is asking for the last item on the list, and if they are, it accesses the node that the dummyNode's `prev` points to and returns it. Otherwise it iterates through the list and finds the correct node.
+	The `set()` method is the same running time as `find()` because a call to find is used to access the pointer of the node that the user wishes to change, and then it is returned (if found) to have its data changed.
+	For similar reasons, `add()`, `remove()`, and `splice()` are the same running time as `find()` (linear), as all three methods have calls to `find()`, and then perform operations that are not based on the size of the LinkedList.
 
 * Select any of the following labs, and analyze the running times for each of your methods of your data structure: Queue, Linked List, Binary Search Tree, Heap, Hash Table, Graph (Adjacency List or Adjacency Matrix, you don't have to do both, but you can if you want)
 
