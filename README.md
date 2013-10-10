@@ -16,14 +16,12 @@ Body of portfolio
 
 7 - Create an implementation of a Queue
 ----
-Possible sources of evidence (do any one of these):
 
 https://github.com/MiamiOH-CSE274/03_Queue_Lab/tree/gardnedn
 https://github.com/MiamiOH-CSE274/03_Queue_Lab/blob/gardnedn/ArrayQueue.ipp
 
 7 - Create an implementation of a List
 ----
-Possible sources of evidence (do any one of these):
 
 * https://github.com/MiamiOH-CSE274/04_Linked_List_Lab/tree/gardnedn
 * https://github.com/MiamiOH-CSE274/04_Linked_List_Lab/blob/gardnedn/LinkedList.ipp
