@@ -4,8 +4,6 @@ Portfolio
 Author
 ==========
 "Kojs, Michelle", kojsmn
-Portfolio
-==========
 
 Document completion of the course's learning outcomes.
 
@@ -28,7 +26,7 @@ Possible sources of evidence (do any one of these):
 * Use a queue as your data structure in https://github.com/MiamiOH-CSE274/Shuffle
 * Consult with Dr. Brinkman on an alternative project
 
-I choose to do the Queue Lab for the implementation of a Queue.
+I chose to do the Queue Lab for the implementation of a Queue.
 Here is a link to my repository on github which includes the source code: https://github.com/kojsmn/03_Queue_Lab/tree/kojsmn
 
 7 - Create an implementation of a List
@@ -40,7 +38,7 @@ Possible sources of evidence (do any one of these):
 * Implement chaining instead of linear probing in https://github.com/MiamiOH-CSE274/05_Hashing_Lab
 * Consult with Dr. Brinkman on an alternative project
 
-I choose to do the Linked List Lab for the implementation of a List.
+I chose to do the Linked List Lab for the implementation of a List.
 Here is a link to my repository on github which includes the source code: https://github.com/kojsmn/04_Linked_List_Lab/tree/kojsmn
 
 7 - Create an implementation of a Binary Search Tree
