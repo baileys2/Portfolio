@@ -37,7 +37,7 @@ Possible sources of evidence (do any one of these):
 * Consult with Dr. Brinkman on an alternative project
 
 
-7 - Create an implementaiton of a Hash Table
+7 - Create an implementation of a Hash Table
 ----
 Possible sources of evidence (do any one of these):
 
@@ -78,6 +78,8 @@ Possible sources of evidence (do any one of these):
 -----
 Possible sources of evidence (do up to 3 of these, up to 7 points for each):
 
+* Select any of the following labs, and analyze the running times for each of your methods of your data structure: Queue, Linked List, Binary Search Tree, Heap, Hash Table, Graph (Adjacency List or Adjacency Matrix, you don't have to do both, but you can if you want)
+
 For the ArrayQueue (found here https://github.com/db4soundman/03_Queue_Lab/blob/blasedd/ArrayQueue.ipp ), the running times of the methods are as follows.
 
 The constructor is constant time, since space is only being set aside to store data in the array, nothing is being added. The destructor is constant time as well, assuming that the `delete[]` method is constant. `Add()` is constant time as well, unless `grow()` is called, in which case it's running time is based on `grow()` (see below). `Remove()` is constant time as well, since the first item in the queue is always removed from the array. `getNumItems()` is constant time, as the method only returns `numItems`. Finally, `grow()` runs in linear time since the items in the backingArray need to be copied to a new and larger array.
@@ -92,7 +94,6 @@ For the Linked List (found here https://github.com/db4soundman/04_Linked_List_La
 	For similar reasons, `add()`, `remove()`, and `splice()` are the same running time as `find()` (linear), as all three methods have calls to `find()`, and then perform operations that are not based on the size of the LinkedList.
 	`Size()` is constant time; it only returns the numItems variable.
 
-* Select any of the following labs, and analyze the running times for each of your methods of your data structure: Queue, Linked List, Binary Search Tree, Heap, Hash Table, Graph (Adjacency List or Adjacency Matrix, you don't have to do both, but you can if you want)
 
 
 5 - Describe memory management in C++, and correctly use dynamic variables, including destructors
