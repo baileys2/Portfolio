@@ -18,7 +18,8 @@ Body of portfolio
 ----
 Possible sources of evidence (do any one of these):
 
-Proof of Queue implemntation here: https://github.com/aczirkle/03_Queue_Lab
+Proof of Queue implementation here: https://github.com/aczirkle/03_Queue_Lab
+
 My queue adds to the queue and removes the first in the queue when called. it gets the correct number
 items in the queue and does all of it in the correct length of time.
 
@@ -26,9 +27,10 @@ items in the queue and does all of it in the correct length of time.
 ----
 Possible sources of evidence (do any one of these):
 
-Proof of List implemtation here: https://github.com/aczirkle/04_Linked_List_Lab
-My list is a doublely linked list which allows an add, remove, get and set in constant time, throwing errors where
-apporiate. Not leaking memory
+Proof of List implementation here: https://github.com/aczirkle/04_Linked_List_Lab
+
+My list is a doubly linked list which allows an add, remove, get and set in constant time, throwing errors where
+appropriate. Not leaking memory
 
 
 7 - Create an implementation of a Binary Search Tree
@@ -41,7 +43,7 @@ Possible sources of evidence (do any one of these):
 * Consult with Dr. Brinkman on an alternative project
 
 
-7 - Create an implementaiton of a Hash Table
+7 - Create an implementation of a Hash Table
 ----
 Possible sources of evidence (do any one of these):
 
@@ -82,7 +84,7 @@ Possible sources of evidence (do any one of these):
 -----
 Possible sources of evidence (do up to 3 of these, up to 7 points for each):
 
-* Select any of the following labs, and analyze the running times for each of your methods of your data structure: Queue, Linked List, Binary Search Tree, Heap, Hash Table, Graph (Adjacency List or Adjacency Matrix, you don't have to do both, but you can if you want)
+* Select any of the following labs, and analyse the running times for each of your methods of your data structure: Queue, Linked List, Binary Search Tree, Heap, Hash Table, Graph (Adjacency List or Adjacency Matrix, you don't have to do both, but you can if you want)
 
 
 5 - Describe memory management in C++, and correctly use dynamic variables, including destructors
@@ -90,7 +92,8 @@ Possible sources of evidence (do up to 3 of these, up to 7 points for each):
 Possible sources of evidence (do one):
 
 * Select any of your labs or projects that uses dynamic memory, and explain how memory is managed. In particular, you must show that your program does not leak memory, and does not suffer from dangling pointers or out of bounds array access. This will probably require referring to your code, providing links.
-The linked list lab is a good example of useage of dynamic memory as it creates a new section of memory for each object that is added and pointers are added to the next in the list and the pervious in the list. When the object is deleted the data stored is deleted, and the object's position pointers for the previous and next reference each other rather than the deleted object.
+
+The linked list lab is a good example of usage of dynamic memory as it creates a new section of memory for each object that is added and pointers are added to the next in the list and the previous in the list. When the object is deleted the data stored is deleted, and the object's position pointers for the previous and next reference each other rather than the deleted object.
 
 5 - Create collection classes using templates in C++
 ----
