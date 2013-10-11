@@ -18,20 +18,22 @@ Body of portfolio
 ----
 Possible sources of evidence (do any one of these):
 
-* <b> https://github.com/MiamiOH-CSE274/03_Queue_Lab </b> [I will use this as evidence]
+* <b> https://github.com/MiamiOH-CSE274/03_Queue_Lab  [I will use this as evidence] </b>
 * Use a queue as your data structure in https://github.com/MiamiOH-CSE274/Shuffle
 * Consult with Dr. Brinkman on an alternative project
 
 To show suffecient knowledge of Queue I will use my 03_Queue_Lab the link is https://github.com/kosirjm/03_Queue_Lab
+
 7 - Create an implementation of a List
 ----
 Possible sources of evidence (do any one of these):
 
 * https://github.com/MiamiOH-CSE274/04_Linked_List_Lab
-* Use a linked list as your data structure in https://github.com/MiamiOH-CSE274/Shuffle
+* <b> Use a linked list as your data structure in https://github.com/MiamiOH-CSE274/Shuffle [I will use this as evidence]</b>
 * Implement chaining instead of linear probing in https://github.com/MiamiOH-CSE274/05_Hashing_Lab
 * Consult with Dr. Brinkman on an alternative project
 
+I will use the shuffle project as evidence.  Currently not finished. Due on Oct 14, 2013.
 
 7 - Create an implementation of a Binary Search Tree
 ----
