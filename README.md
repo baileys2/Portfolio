@@ -18,10 +18,11 @@ Body of portfolio
 ----
 Possible sources of evidence (do any one of these):
 
-* https://github.com/MiamiOH-CSE274/03_Queue_Lab
+* <b> https://github.com/MiamiOH-CSE274/03_Queue_Lab </b> [I will use this as evidence]
 * Use a queue as your data structure in https://github.com/MiamiOH-CSE274/Shuffle
 * Consult with Dr. Brinkman on an alternative project
 
+To show suffecient knowledge of Queue I will use my 03_Queue_Lab the link is https://github.com/kosirjm/03_Queue_Lab
 7 - Create an implementation of a List
 ----
 Possible sources of evidence (do any one of these):
