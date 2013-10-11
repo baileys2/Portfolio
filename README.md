@@ -1,6 +1,6 @@
 Author
 =======
-"Proctor, Patrick" proctopj
+"Proctor, Patrick", proctopj
 
 Portfolio
 =========
