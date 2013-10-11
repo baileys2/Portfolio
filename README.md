@@ -86,8 +86,9 @@ Possible sources of evidence (do any one of these):
 -----
 Possible sources of evidence (do up to 3 of these, up to 7 points for each):
 
-* Select any of the following labs, and analyze the running times for each of your methods of your data structure: Queue, Linked List, Binary Search Tree, Heap, Hash Table, Graph (Adjacency List or Adjacency Matrix, you don't have to do both, but you can if you want)
+* Select any of the following labs, and analyze the running times for each of your methods of your data structure: <b> Queue </b> , Linked List, Binary Search Tree, Heap, Hash Table, Graph (Adjacency List or Adjacency Matrix, you don't have to do both, but you can if you want)
 
+Only One currently done is the Queue Lab.  Please see https://github.com/kosirjm/03_Queue_Lab
 
 5 - Describe memory management in C++, and correctly use dynamic variables, including destructors
 ----
