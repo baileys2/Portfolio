@@ -3,7 +3,7 @@ Portfolio
 
 Document completion of the course's learning outcomes.
 
-<b> Lots of work still to do!!  Tried to fill in what I could thus far.  Certain things/ that may have been answered generally were not because they would be more correctly answered later in the semester after more work and better understanding of material.  Did not want to try to answer things I may slightly know, and give a general answer incorrectly. 
+<b> Lots of work still to do!!  Tried to fill in what I could thus far.  Certain things that may have been answered generally were not because they would be more correctly answered later in the semester after more work and better understanding of material.  Did not want to try to answer things I may slightly know, and give a general answer incorrectly. 
 
 Instructions
 ====
