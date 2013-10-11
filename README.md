@@ -96,7 +96,7 @@ Possible sources of evidence (do one):
 
 * Select any of your labs or projects that uses dynamic memory, and explain how memory is managed. In particular, you must show that your program does not leak memory, and does not suffer from dangling pointers or out of bounds array access. This will probably require referring to your code, providing links.
 
-
+Though I have done this in my Queue_Lab I would like to work with this more, and understand it better before submitting this question.  I could currently give a general answer from what we have learned, but I would like to get a better feel for it first. 
 5 - Create collection classes using templates in C++
 ----
 Possible sources of evidence (do one):
