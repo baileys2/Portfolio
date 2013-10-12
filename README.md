@@ -25,6 +25,12 @@ Possible sources of evidence (do any one of these):
 * Use a queue as your data structure in https://github.com/MiamiOH-CSE274/Shuffle
 * Consult with Dr. Brinkman on an alternative project
 
+Here is a link to my repository on github, it includes my source code:
+
+https://github.com/MiamiOH-CSE274/03_Queue_Lab/tree/zhongm2
+
+
+
 7 - Create an implementation of a List
 ----
 Possible sources of evidence (do any one of these):
@@ -33,6 +39,12 @@ Possible sources of evidence (do any one of these):
 * Use a linked list as your data structure in https://github.com/MiamiOH-CSE274/Shuffle
 * Implement chaining instead of linear probing in https://github.com/MiamiOH-CSE274/05_Hashing_Lab
 * Consult with Dr. Brinkman on an alternative project
+
+
+Here is a linke to my repository on github, it includes my source code:
+
+https://github.com/MiamiOH-CSE274/04_Linked_List_Lab/tree/zhongm2
+
 
 
 7 - Create an implementation of a Binary Search Tree
