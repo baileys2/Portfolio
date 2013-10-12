@@ -231,4 +231,21 @@ Using template to mimic an intreface in C++.
 
 Possible sources of evidence (do up to 2 of these, up to 15 points for each):
 
+
+
 * Select a project for which there are multiple reasonable data structure designs. Describe two reasonable options, and explain the trade-offs between them. For each, describe an application where the data structure would be better. For example, if comparing KD-Trees to a Grid in the Starbucks problem, which one is better really depends on the input data set. Explain what the data would have to look like for the Grid to be a clear winner, and also what type of data would lead you to use a KD-Tree instead.
+
+
+Queue Lab:
+
+
+1.We could use regular array instead of using circular-array, you could make 
+the array big enough in order to avoid using grow() when your array is full.
+Because grow() method will lower your program's running time. However, if the numbre of data you need to add to the array is gigantic, it is possible to run out of your RAM. But if you use circular array, this situation will not happen.
+
+2.We also could use linked-list to implement Queue. But it still has some 
+disvantages. For instance, if you implement add() method by using linked-list, 
+it means you need to keep adding elements at the end of linked-list. As the elements get larger, the longer will become longer.  But using circular-array, you 
+could avoid this condition.
+
+
