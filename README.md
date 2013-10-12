@@ -199,7 +199,7 @@ Possible sources of evidence (do one):
 
 Queue lab:
 
-https:github.com/MiamiOH-CSE274/03_Queue_Lab/blob/zhongm2/ArrayQueue.ipp
+https://github.com/MiamiOH-CSE274/03_Queue_Lab/blob/zhongm2/ArrayQueue.ipp
 
 In my constructor, I allocated memory on line 26.
 
@@ -218,7 +218,11 @@ Possible sources of evidence (do one):
 
 * Any of the labs or projects, provided it uses templates in an interesting way.
 
+For instance, in my Queue lab:
 
+https://github.com/MiamiOH-CSE274/03_Queue_Lab/blob/zhongm2/Queue.h
+
+Using template to mimic an intreface in C++.
 
 
 
