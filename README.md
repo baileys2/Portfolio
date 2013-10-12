@@ -201,6 +201,22 @@ Summary:
 The prorgam runs successfully, memory has been managed appropriately.
 
 
+If you want to find out more details, click the links below:
+
+
+Queue: 
+
+https://github.com/JohnneyMing/03_Queue_Lab/tree/patch-1
+
+List:
+
+https://github.com/JohnneyMing/04_Linked_List_Lab
+
+
+
+
+
+
 
 5 - Describe memory management in C++, and correctly use dynamic variables, including destructors
 ----
