@@ -110,9 +110,83 @@ front = ( ( front + 1) % backingArraySize)). (n = 1)
 Therefore: the remove() method takes constant time O(1).
 
 
+grow() method:
+
+1.Creating integer variable: int count = 0;(N = 1).
+
+2.Creating an new array, size twice larger than original array.
+
+T *newArray = new T[2 * backingArraySize]. (N = 1).
+
+3.Do a while loop to loop through the entire array and copy elements from
+original array to new array: while(count < numItems).
+Assume the number of element in array is n. (N = n - 1 + n - 1 = 2n-2).
+
+4.backingArraySize = 2 * backingArraySize. (N = 1)
+
+5.Deallocate the memory: delete[]backingArray. (N = 1).
+
+6.Set backingArray to be NULL: backingArray = NULL (N = 1).
+
+7.backingArray = newArray. (N = 1)
+
+Therefore: T(n) = 1 + 1 + 2n-2 + 1 + 1 + 1 = 2n + 3.
+Which is O(n).
 
 
+add() method:
 
+If array is not full, then it takes O(1). Otherwise it takes O(n), because 
+you need to call grow() method if the array is full.
+
+getNumItems() method:
+
+It takes O(1) time because it simply just return number of element in array.
+
+
+Summary:
+
+I implemented Queue by using circular array, program runs successfully, memory
+has been managed appropriately.
+
+
+/*****************************************/
+
+
+Linked list:
+
+add() method:
+
+It takes O(1) time. Because creating a new memory block for storing the element
+which you want to add on the list and switch pointer take constant time.
+So the running time of this method is O(1).
+
+remove() method:
+
+It is same as add() method, O(1).
+
+find() method:
+
+It takes O(n) time, because it needs to make a loop to find the
+memory address of element in array, and return that memory address.
+
+get() method:
+
+It takes O(n) time, because it involved find() method, and then return the
+data in that memory address.
+
+set() method:
+
+It takes O(n) time because it also involved find() method, and then set the 
+data in that memory address.
+
+size() method:
+
+It takes O(1) time because it returned.
+
+
+Summary: 
+The prorgam runs successfully, memory has been managed appropriately.
 
 
 
