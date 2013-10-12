@@ -182,7 +182,7 @@ data in that memory address.
 
 size() method:
 
-It takes O(1) time because it returned.
+It takes O(1) time because it returned the number of element in array.
 
 
 Summary: 
@@ -197,11 +197,29 @@ Possible sources of evidence (do one):
 * Select any of your labs or projects that uses dynamic memory, and explain how memory is managed. In particular, you must show that your program does not leak memory, and does not suffer from dangling pointers or out of bounds array access. This will probably require referring to your code, providing links.
 
 
+Queue lab:
+
+https:github.com/MiamiOH-CSE274/03_Queue_Lab/blob/zhongm2/ArrayQueue.ipp
+
+In my constructor, I allocated memory on line 26.
+
+In my destructor, I deallocated the memory and set it to be NULL.
+
+Summary:
+
+My program does not leak meemory, and does not suffer from dangling pointers.
+
+
+
+
 5 - Create collection classes using templates in C++
 ----
 Possible sources of evidence (do one):
 
 * Any of the labs or projects, provided it uses templates in an interesting way.
+
+
+
 
 
 30 - Using time and space analysis, justify the selection of a data structure for a given application
