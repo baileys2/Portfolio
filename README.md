@@ -88,6 +88,33 @@ Possible sources of evidence (do up to 3 of these, up to 7 points for each):
 
 * Select any of the following labs, and analyze the running times for each of your methods of your data structure: Queue, Linked List, Binary Search Tree, Heap, Hash Table, Graph (Adjacency List or Adjacency Matrix, you don't have to do both, but you can if you want)
 
+Queue: 
+Remove() method:
+
+1.Create an return variable: T rm. (n = 1)
+
+2.Check if array has elements in it. (n = 1)
+
+3.If it doesn't, throw an exception. (n = 1 or n = 0).
+
+4.Set the return variable as backingArray[front]. (n = 1).
+
+5.Increase the first index of array as one by doing:
+
+front = ( ( front + 1) % backingArraySize)). (n = 1)
+
+6.Decrease the number of element in array as one. ( n = 1)
+
+7.Return.(n = 1).
+
+Therefore: the remove() method takes constant time O(1).
+
+
+
+
+
+
+
 
 5 - Describe memory management in C++, and correctly use dynamic variables, including destructors
 ----
