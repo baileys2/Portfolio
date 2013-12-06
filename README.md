@@ -21,9 +21,9 @@ Body of portfolio
 ----
 Possible sources of evidence (do any one of these):
 
-* https://github.com/MiamiOH-CSE274/03_Queue_Lab
-* Use a queue as your data structure in https://github.com/MiamiOH-CSE274/Shuffle
-* Consult with Dr. Brinkman on an alternative project
+Below is a link to my branch of the 03_Queue_Lab in MiamiOH-CSE274 (specifically the file ArrayQueue.ipp), where I successfully implemented a queue:
+
+https://github.com/MiamiOH-CSE274/03_Queue_Lab/blob/baileys2/ArrayQueue.ipp
 
 7 - Create an implementation of a List
 ----
