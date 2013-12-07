@@ -25,21 +25,27 @@ Below is a link to my branch of the 03_Queue_Lab in MiamiOH-CSE274 (specifically
 
 https://github.com/MiamiOH-CSE274/03_Queue_Lab/blob/baileys2/ArrayQueue.ipp
 
+References used: the online text
+
 7 - Create an implementation of a List
 ----
-Possible sources of evidence (do any one of these):
+Source of Evidence:
 
-* https://github.com/MiamiOH-CSE274/04_Linked_List_Lab
-* Use a linked list as your data structure in https://github.com/MiamiOH-CSE274/Shuffle
-* Implement chaining instead of linear probing in https://github.com/MiamiOH-CSE274/05_Hashing_Lab
-* Consult with Dr. Brinkman on an alternative project
+Below is a link to my branch of the 04_Linked_List_Lab in MiamiOH-CSE274 (specifically the file LinkedList.ipp), where I successfully implemented a Doubly-Linked List:
 
+https://github.com/MiamiOH-CSE274/04_Linked_List_Lab/blob/baileys2/LinkedList.ipp
+
+References used: the online text
 
 7 - Create an implementation of a Binary Search Tree
 ----
+Source of Evidence:
+
 Below is a link to my branch of the 06_BST_Lab in MiamiOH-CSE274 (specifically the file BST.ipp), where I successfully implemented a binary search tree:
 
 https://github.com/MiamiOH-CSE274/06_BST_Lab/blob/baileys2/BST.ipp
+
+References used: the online text
 
 7 - Create an implementaiton of a Hash Table
 ----
@@ -49,15 +55,17 @@ Below is a link to my branch of the 05_Hashing_Lab in MiamiOH-CSE274 (specifical
 
 https://github.com/MiamiOH-CSE274/05_Hashing_Lab/blob/baileys2/HashTable.ipp
 
+References used: the online text
+
 7 - Create an implementation of a Heap
 ----
-Possible sources of evidence (do any one of these):
+Source of Evidence:
 
-* Heap lab (TODO)
-* Implement heap sort in the Sorting lab (TODO)
-* Implement a heap as part of the Graph Algorithms lab (TODO)
-* Implement a heap as part of the Graph Project (TODO)
-* Consult with Dr. Brinkman on an alternative project
+Below is a link to my branch of the 07_Heap_Lab in MiamiOH-CSE274 (specifically the file Heap.ipp), where I successfully implemented a heap priority queue:
+
+https://github.com/MiamiOH-CSE274/07_Heap_Lab/blob/baileys2/Heap.ipp
+
+References used: the online text
 
 7 - Create an implementation of either Adjanency Lists or Adjacency Matrices
 ----
