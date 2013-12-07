@@ -19,7 +19,7 @@ Body of portfolio
 
 7 - Create an implementation of a Queue
 ----
-Possible sources of evidence (do any one of these):
+Source of Evidence:
 
 Below is a link to my branch of the 03_Queue_Lab in MiamiOH-CSE274 (specifically the file ArrayQueue.ipp), where I successfully implemented a queue:
 
@@ -37,22 +37,17 @@ Possible sources of evidence (do any one of these):
 
 7 - Create an implementation of a Binary Search Tree
 ----
-Possible sources of evidence (do any one of these):
+Below is a link to my branch of the 06_BST_Lab in MiamiOH-CSE274 (specifically the file BST.ipp), where I successfully implemented a binary search tree:
 
-* Binary Search Tree Lab (TODO)
-* Use a binary search tree or KD-Tree in the Starbucks project.
-* Use a binary search tree in the Zeitgeist project
-* Consult with Dr. Brinkman on an alternative project
-
+https://github.com/MiamiOH-CSE274/06_BST_Lab/blob/baileys2/BST.ipp
 
 7 - Create an implementaiton of a Hash Table
 ----
-Possible sources of evidence (do any one of these):
+Source of Evidence:
 
-* https://github.com/MiamiOH-CSE274/05_Hashing_Lab
-* Use a hash table in the Zeitgeist project
-* Use locality-preserving hashing on the Starbucks project (not recommended!)
-* Consult with Dr. Brinkman on an alternative project
+Below is a link to my branch of the 05_Hashing_Lab in MiamiOH-CSE274 (specifically the file HashTable.ipp), where I successfully implemented a hash table:
+
+https://github.com/MiamiOH-CSE274/05_Hashing_Lab/blob/baileys2/HashTable.ipp
 
 7 - Create an implementation of a Heap
 ----
