@@ -102,12 +102,11 @@ Possible sources of evidence (do one):
 5 - Create collection classes using templates in C++
 ----
 
-Below is a link to my _____________ lab, where I successfully implemented templates 
+Below is a link to my 03_Queue_Lab, where I successfully implemented templates: 
 
-* ADD A LINK!
+https://github.com/MiamiOH-CSE274/03_Queue_Lab/blob/baileys2/ArrayQueue.ipp
 
-* Any of the labs or projects, provided it uses templates in an interesting way.
-
+The purpose of "templates" in C++ is to essentially make code more reusable, as they are extremely useful when you have to perform tasks that are pretty much identical, but must be done with multiple types of variables. For example, in the queue that I implemented in the link above, a template class "T" was used. Obviously there is no acutal variable type "T", but rather this is simply used as a placeholder that tells the program that the type "T" will eventually be filled with an actual variable type. This type is determined when the data structure is constructed, and also when variables are passed back and forth between the various methods in the program. Using template classes simply allowed for more flexibility with what can be done with the code (as the queue could hold ints, doubles, chars, etc.) and makes it easier for the code to be adapted to a wider variety of possible use cases without having to write a whole new method for each desired variable type that performs the same exact action as the original. In the end, using template classes is a more efficient way to write code that makes things more streamlined and can be used in a much wider range of possibilities without haveing to rewrite anything.
 
 30 - Using time and space analysis, justify the selection of a data structure for a given application
 ----
