@@ -93,6 +93,20 @@ References used: Andrew Zirkle (project partner), the online text
 -----
 Possible sources of evidence (do up to 3 of these, up to 7 points for each):
 
+The three sources of evidence that I will be discussing in this section are the time and space requirements of a FIFO queue, a doulby-linked list, and a hash table.
+
+1: Queue
+Here is a link to the implemented queue being discussed: https://github.com/MiamiOH-CSE274/03_Queue_Lab/blob/baileys2/ArrayQueue.ipp
+The main methods that will be discussed in this program all come from the ArrayQueue.ipp file, and consist of the add, remove, getNumItems, and grow methods. The add is almost always carried out in O(1) time, as the only operations that are performed in this method are to instantiate a variable that represents the location in the main array used for memory storage (called backingArray in this program) at which the new item will be added, to actually add the item in question to the recently determined location, and finally to update the number of items in the array (represented by the variable numItems) by increasing it by one.  All of these things take O(1) time, so the add method as a whole will usually take O(1) time. The only exception to this rule occurs when numItems is equal to the variable that represents the size of backingArray, called backingArraySize. This is checked at the beginning of the add method, and when this statement is true then the grow method is called. The grow method is run in O(n) time, with n being the number of items stored in the backingArray. When the grow method is called, the add method also has a run time of O(n) time because of this method call. The grow method is run in O(n) time because when it is called and run, a new array is created (called updatedArray) that is twice as large as the old backingArray (this new size is represented by a variable called updatedSize). In grow, all n items from the old backingArray must be copied over to updatedArray, which takes O(n) time. The front of the bakingArray is then updated to 0, the old backingArray is deleted in order to prevent memory leaks, and backingArray is set equal to updatedArray. The remove method, similar to the add method, takes O(1) time, as all of the actions is carries out take constant time. It begins by checking to see if there are any items already in backingArray, and if not it throws an error message telling the user that they must add at least one item to backingArray before trying to call remove. After this conditional statement has been satisfied, a variable (called itemToDelete) is instantiated to represent the item in backingArray that is located at the "front" of the list of items to be deleted (the variable front is used to keep track of this location in the array). Front is then set to be equal to one after the previous front location (or the first item in backingArray in the case that the previous front was the last item in backingArray), numItems is decremented by one, and itemToDelete is returned. All of these actions take constant time, which is why the remove method runs in O(1) time. Finally, the getNumItems method has a run time of O(1) time, as literally the only line of code in the method returns the value of the numItems variable.
+
+2: Linked List
+Here is a link to the implemented linked list being discussed: https://github.com/MiamiOH-CSE274/04_Linked_List_Lab/blob/baileys2/LinkedList.ipp
+The main methods that will be discussed in this program all come from the LinkedList.ipp file, and consist of 
+
+3: Hash Table
+Here is a link to the implemented hash table being discussed: https://github.com/MiamiOH-CSE274/05_Hashing_Lab/blob/baileys2/HashTable.ipp
+
+
 * Select any of the following labs, and analyze the running times for each of your methods of your data structure: Queue, Linked List, Binary Search Tree, Heap, Hash Table, Graph (Adjacency List or Adjacency Matrix, you don't have to do both, but you can if you want)
 
 
