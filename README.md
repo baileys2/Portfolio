@@ -69,21 +69,25 @@ References used: the online text
 
 7 - Create an implementation of either Adjanency Lists or Adjacency Matrices
 ----
-Possible sources of evidence (do any one of these):
+Source of Evidence:
 
-* Graph lab
-* Graph Algorithms lab
-* Graph project
-* Consult with Dr. Brinkman on an alternative project
+Below is a link to my branch of the Vise project in MiamiOH-CSE274, where we implemented an adjacency list data structure:
+
+https://github.com/MiamiOH-CSE274/Vise/tree/ZirckleAndBailey
+
+References used: Andrew Zirkle (project partner), the online text
 
 7 - Implement graph algorithms
 ----
-Possible sources of evidence (do any one of these):
+Source of Evidence:
 
-* Graph lab
-* Graph Algorithms lab
-* Graph project
-* Consult with Dr. Brinkman on an alternative project
+Below is a link to my branch of the Vise project in MiamiOH-CSE274, where we implemented a depth-first search in the isConnected method of testApp.cpp:
+
+https://github.com/MiamiOH-CSE274/Vise/tree/ZirckleAndBailey
+
+This depth-first search did not function completely successfully, but I believe that most of the correct code is there and only minor errors are preventing it from functioning properly.
+
+References used: Andrew Zirkle (project partner), the online text
 
 21 - Determine space and time requirements of common data structure methods
 -----
