@@ -91,8 +91,6 @@ References used: Andrew Zirkle (project partner), the online text
 
 21 - Determine space and time requirements of common data structure methods
 -----
-Possible sources of evidence (do up to 3 of these, up to 7 points for each):
-
 The three sources of evidence that I will be discussing in this section are the time and space requirements of a queue, a linked list, and a hash table.
 
 1: Queue
@@ -133,6 +131,19 @@ The purpose of template classes in C++ is to essentially make code more reusable
 
 30 - Using time and space analysis, justify the selection of a data structure for a given application
 ----
+Sources of evidence:
+
+The two projects that I chose to analyze were the Shuffle and Vise projects.
+
+Shuffle
+
+
+
+Vise
+
+For the Vise project, two of the possible types of data structures that could be used are an adjacency list or an adjacency matrix. These two data structures are somewhat similar in that they both implement nodes and edges to store data and determine the relationships between each data item, but differ in their overall structure. Adjacency lists are basically glorified arrays which contain vertices, each with a list of nodes that they share edges, or connections, with. These adjacency lists are much more linear than adjacency matrices, and often take up a significantly smaller amount of space (as will be discussed later). Adjacency matrices, on the other hand, take on a more 2-D shape, as like most traditional matrices they are composed of multiple rows and columns. The various rows and columns of the adjacency matrix are determined by edges linking each node to the nodes surrounding it in the matrix (the nodes directly above, below, to the left, and to the right of it, or whatever combination of those four things applies to any given node). Adjacency lists also generally are linked to the nodes directly before and after them, much like a linked list. For both data structures, however, each node can certainly have more than the traditional amount of edges attached to it, and this is usually determined based on the needs of the program that the data structure is being implemented in. For example, in the Vise project if an adjacency list were used then all of the nodes in the "middle" of the board (not an border tile) would have six edges. Determining the actual technical differences between these two data structures can be a bit more difficult to determine, as both use nodes and edges. However, the main difference between the two lies in their run times and methods of storage. In an adjacency list, the storage space used can range anywhere from O(n+m) time (worst case) to O(n+(d*n)) (best case), where n is the number of nodes in the list, m is the number of edges, and d is the maximum degree of any node in the list. In comparison, in an adjacency matrix the storage space used is O(n^2), proving that when it comes to space management adjacency lists are the better option. As for run times, both are somewhat similar, but adjacency lists are usually the better option because there are generally less edges to have to check in an adjacency list as opposed to an adjacency matrix. Adacency matrices do come out ahead in some aspects though, as it is much easier to find a specific edge in an adjacency matrix than it is in an adjacency list. When determining which data structure would be better for a given specific application, the answer usually lies in the overall shape that one traditionally thinks of when thinking of a list vs. a matrix. An adjacency list would be a better fit in more linear applications such as a set of directions on, say, a treasure map. On the other hand, adjacency matrices are better in situations where specific edges must be found quickly, such as a mathematical factoring table that has edges linking each node to all of the factors that it can be broken down into. However, unless you need to find specific edges easily, adjacency lists come out on top due to their better memory management. For the Vise project, I would say that an adjacency list would work out better than an adjacency matrix, as each node would be able to store a list of all of its assigned neighbors. Also, run time and memory management are always a factor, which adjacency lists are the better option for.
+
+Resources used: the online text
 
 Possible sources of evidence (do up to 2 of these, up to 15 points for each):
 
